@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diccionario de sinonimos</title>
+    <link rel="stylesheet" href="style.css">
+    
+    
+</head>
+<body>
+    <h1>Palabras en el diccionario</h1>
+
+    <div class="container">
+
+        <input type="text" id="oracion" placeholder="Escribe una oración">
+        <input type="text" id="palabra-buscar" placeholder="Busca palabra">
+        <button id="buscar">Buscar</button>
+
+        <select id="palabras">
+            <option value="algoritmo">Algoritmo</option>
+            <option value="progrmacion">Programacion</option>
+            <option value="lenguaje">Lenguaje</option>
+            <option value="codigo">Código</option>
+            <option value="redes">Redes</option>
+            <option value="tipado">Tipado</option>
+            <option value="terminal">Terminal</option>
+            <option value="compilador">Compilador</option>
+            <option value="interpretador">Interpretador</option>
+            <option value="navegador">Navegador</option>
+            <option value="servidor">Servidor</option>
+            <option value="compatibilidad">Compatibilidad</option>
+            <option value="simple">Simple</option>
+            <option value="complejo">Complejo</option>
+            <option value="automata">Automata</option>
+        </select>
+        <button type="btn btn-info" id="reemplazar">Reemplazar</button>
+        <p id="resultado"></p>
+       
+          
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script src="main.js"></script>
+</body>
+</html>
